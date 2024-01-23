@@ -67,13 +67,18 @@ internal class Program
         }
         else { Console.WriteLine("Неправильно ввели"); }
     }
-
     private static void WriteToFile(string text)
     {
-        using (StreamWriter writer = new StreamWriter("C:\\VS C# Projects\\TestTasks\\WorkWithFiles\\second.txt"))
+        string filePath = "C:\\VS C# Projects\\TestTasks\\WorkWithFiles\\second.txt";
+        if (!File.Exists(filePath))
+        {
+            File.Create(filePath).Close();
+        }
+        using (StreamWriter writer = new StreamWriter(filePath))
         {
             writer.Write(text);
             Console.WriteLine("Записано в файл");
         }
     }
 }
+    
