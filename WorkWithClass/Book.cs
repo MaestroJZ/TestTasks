@@ -19,12 +19,33 @@ namespace WorkWithClass
             Genre = genre;
             YearOfPublication = yearOfPublication;
         }
-        public void DisplayInfo()
+        public virtual void DisplayInfo()
         {
             Console.WriteLine($"Название: {Title}");
             Console.WriteLine($"Автор: {Author}");
             Console.WriteLine($"Жанр: {Genre}");
-            Console.WriteLine($"Год публикации: {YearOfPublication}\n");
+            Console.WriteLine($"Год публикации: {YearOfPublication}");
         }
     }
+
+    internal class Ranobe : Book
+    {
+        
+        public int NumberOfChapters { get; set; }
+        public string Status {  get; set; }
+
+        public Ranobe(string title, string author, string genre, int yearOfPublication, string status, int numberOfChapters)
+            : base(title, author, genre, yearOfPublication)
+        {
+            Status = status;
+            NumberOfChapters = numberOfChapters;
+        }
+        public override void DisplayInfo()
+        {
+            base.DisplayInfo();
+            Console.WriteLine($"Статус ранобэ: {Status}");
+            Console.WriteLine($"Количество глав: {NumberOfChapters}");
+        }
+    }
+
 }
