@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempConvertor", "TempConver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithString", "WorkWithString\WorkWithString.csproj", "{02CCECF5-05F6-4578-BDB4-E5700540B661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithFiles", "WorkWithFiles\WorkWithFiles.csproj", "{A5B818CE-1F88-4CC0-8B88-19170679D8E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{02CCECF5-05F6-4578-BDB4-E5700540B661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CCECF5-05F6-4578-BDB4-E5700540B661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CCECF5-05F6-4578-BDB4-E5700540B661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B818CE-1F88-4CC0-8B88-19170679D8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B818CE-1F88-4CC0-8B88-19170679D8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B818CE-1F88-4CC0-8B88-19170679D8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B818CE-1F88-4CC0-8B88-19170679D8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
