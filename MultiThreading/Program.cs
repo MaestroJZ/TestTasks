@@ -23,7 +23,7 @@ internal class Program
                 int item = i + 1;
                 queue.Enqueue(item);
                 Console.WriteLine($"Отправил элемент: {item}");
-                Thread.Sleep(500);
+                Thread.Sleep(750);
             }
         }
     }
@@ -40,7 +40,7 @@ internal class Program
                     Console.WriteLine($"Получил элемент: {item}");
                 }
             }
-            Thread.Sleep(600);
+            Thread.Sleep(500);
         }
     }
 }
