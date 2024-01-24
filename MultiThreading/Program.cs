@@ -5,8 +5,8 @@ internal class Program
     static object lockObject = new object();
     private static void Main(string[] args)
     {
-        Thread senderThread = new Thread(Producer);
-        Thread receiverThread = new Thread(Consumer);
+        Thread senderThread = new Thread(Sender);
+        Thread receiverThread = new Thread(Receiver);
 
         senderThread.Start();
         receiverThread.Start();
@@ -14,7 +14,7 @@ internal class Program
         senderThread.Join();
         receiverThread.Join();
     }
-    static void Producer()
+    static void Sender()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -28,7 +28,7 @@ internal class Program
         }
     }
 
-    static void Consumer()
+    static void Receiver()
     {
         for (int i = 0; i < 10; i++)
         {
