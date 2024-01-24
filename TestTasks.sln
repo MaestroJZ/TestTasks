@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkWithFiles", "WorkWithFi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkWithClass", "WorkWithClass\WorkWithClass.csproj", "{B2FDFBA5-B0AA-4E9B-B70D-A1D65FF349DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{D4F801E7-5F58-42B7-A204-16488381E911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{D4F801E7-5F58-42B7-A204-16488381E911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{0B033F7B-1E98-44B0-BDD5-46778476FB02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D4F801E7-5F58-42B7-A204-16488381E911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F801E7-5F58-42B7-A204-16488381E911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F801E7-5F58-42B7-A204-16488381E911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B033F7B-1E98-44B0-BDD5-46778476FB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B033F7B-1E98-44B0-BDD5-46778476FB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B033F7B-1E98-44B0-BDD5-46778476FB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B033F7B-1E98-44B0-BDD5-46778476FB02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
